@@ -5,32 +5,56 @@ export default function App() {
     <div style={{ background: "#000", color: "#fff", fontFamily: "Arial, sans-serif" }}>
       
       {/* HERO */}
-      <section style={{ textAlign: "center", padding: "80px 20px" }}>
-        <motion.img
-          src="/BG1.png"
-          alt="Timeless Note"
-          style={{ width: 180, marginBottom: 20 }}
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-        />
-        <h1 style={{ color: "#d4af37", fontSize: 48 }}>Timeless Note</h1>
-        <p style={{ maxWidth: 600, margin: "20px auto", color: "#ccc" }}>
-          Capturing heartfelt messages and unforgettable moments through premium event experiences.
-        </p>
-        <a
-          href="#book"
-          style={{
-            background: "#d4af37",
-            color: "#000",
-            padding: "12px 30px",
-            borderRadius: 30,
-            textDecoration: "none",
-            fontWeight: "bold"
-          }}
-        >
-          Book Your Event
-        </a>
-      </section>
+<motion.section
+  initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+  style={{ textAlign: "center", padding: "80px 20px" }}
+>
+  <motion.img
+    src="/BG1.png"
+    alt="Timeless Note"
+    style={{ width: 180, marginBottom: 20 }}
+    initial={{ opacity: 0, scale: 0.8 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.8, delay: 0.2 }}
+  />
+
+  <motion.h1
+    style={{ color: "#d4af37", fontSize: 48 }}
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.4 }}
+  >
+    Timeless Note
+  </motion.h1>
+
+  <motion.p
+    style={{ maxWidth: 600, margin: "20px auto", color: "#ccc" }}
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ delay: 0.6 }}
+  >
+    Capturing heartfelt messages and unforgettable moments through premium event experiences.
+  </motion.p>
+
+  <motion.a
+    href="#book"
+    whileHover={{ scale: 1.05 }}
+    style={{
+      background: "#d4af37",
+      color: "#000",
+      padding: "12px 30px",
+      borderRadius: 30,
+      textDecoration: "none",
+      fontWeight: "bold",
+      display: "inline-block",
+      marginTop: 20
+    }}
+  >
+    Book Your Event
+  </motion.a>
+</motion.section>
 
       {/* SERVICES */}
       <section style={{ padding: "60px 20px", textAlign: "center" }}>
@@ -45,10 +69,15 @@ export default function App() {
         <div style={{ maxWidth: 800, margin: "40px auto" }}>
           <h3>🎥 Video Guestbook – Classic (₱5,999)</h3>
           <ul>
-            <li>3 hours rental – unlimited videos</li>
-            <li>Customized standby photo</li>
-            <li>Google Drive (1 month)</li>
-            <li>FREE Welcome / Selfie Mirror (Promo)</li>
+            <li>3-HOURS RENTAL DURATION - UNLIMITED VIDEO</li>
+            <li>CUSTOMIZED STANDY PHOTO ON THE TELEPHONE SCREEN</li>
+            <li>VIDEO GUESTBOOK VINTAGE TELEPHONE</li>
+            <li>COPY OF ALL FILES VIA GOOGLE DRIVE (1 MONTH ACCESS)</li>
+            <li>CLASSIC BOOTH SET-UP</li>
+            <li>1-2 PROFESSIONAL EVENT ATTENDANT</li>
+            <li>TRANSPORTATION FEE - METRO MANILA AND SOME
+AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
+            <li>"FREE" Welcome / Selfie Mirror (Promo)</li>
           </ul>
 
           <h3 style={{ marginTop: 40 }}>🪞 Welcome / Selfie Mirror – ₱2,999</h3>
