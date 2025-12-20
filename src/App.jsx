@@ -96,7 +96,16 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
         </div>
       </section>
       
-      <div style={{ maxWidth: 800, margin: "20px auto" }}>
+     {/* VIDEO SECTION */}
+<div
+  style={{
+    maxWidth: 800,       // maximum width on desktop
+    width: "90%",        // 90% width on smaller screens
+    margin: "20px auto", // center the video
+    borderRadius: 12,
+    overflow: "hidden"   // ensures rounded corners
+  }}
+>
   <video
     src="/ALL.mp4"
     autoPlay
@@ -105,13 +114,12 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
     playsInline
     controls
     style={{
-      width: "100%",
-      height: "auto",
-      borderRadius: 12,
+      width: "100%",     // fills the container
+      height: "auto",    // keeps aspect ratio
+      display: "block",
       backgroundColor: "#000"
     }}
   >
-    Your browser does not support the video tag.
   </video>
 </div>
 
