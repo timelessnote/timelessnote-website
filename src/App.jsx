@@ -97,7 +97,7 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
       </section>
       
       <video
-  src="/packages/ALL.mp4"
+  src="/PACKAGE11.mp4"
   autoPlay
   muted
   loop
@@ -108,7 +108,6 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
     marginBottom: 15
   }}
 />
-
 
       {/* BOOKING */}
       <section id="book" style={{ padding: "60px 20px", textAlign: "center" }}>
