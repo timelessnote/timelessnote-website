@@ -96,23 +96,24 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
         </div>
       </section>
       
-      <video
-  src="/ALL.mp4"
-  autoPlay
-  muted
-  loop
-  playsInline
-  controls // temporarily added so you can see if it loads manually
-  style={{
-    width: "100%",
-    borderRadius: 12,
-    marginBottom: 15,
-    backgroundColor: "#000" // shows black if video fails to load
-  }}
->
-  Your browser does not support the video tag.
-</video>
-
+      <div style={{ maxWidth: 800, margin: "20px auto" }}>
+  <video
+    src="/ALL.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    controls
+    style={{
+      width: "100%",
+      height: "auto",
+      borderRadius: 12,
+      backgroundColor: "#000"
+    }}
+  >
+    Your browser does not support the video tag.
+  </video>
+</div>
 
       {/* BOOKING */}
       <section id="book" style={{ padding: "60px 20px", textAlign: "center" }}>
