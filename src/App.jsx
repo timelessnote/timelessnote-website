@@ -102,12 +102,17 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
   muted
   loop
   playsInline
+  controls // temporarily added so you can see if it loads manually
   style={{
     width: "100%",
     borderRadius: 12,
-    marginBottom: 15
+    marginBottom: 15,
+    backgroundColor: "#000" // shows black if video fails to load
   }}
-/>
+>
+  Your browser does not support the video tag.
+</video>
+
 
       {/* BOOKING */}
       <section id="book" style={{ padding: "60px 20px", textAlign: "center" }}>
