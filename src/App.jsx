@@ -97,7 +97,7 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
       </section>
       
       <video
-  src="/PACKAGE11.mp4"
+  src="/packages/ALL.mp4"
   autoPlay
   muted
   loop
