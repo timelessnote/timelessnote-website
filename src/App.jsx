@@ -83,15 +83,30 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
           <h3 style={{ marginTop: 40 }}>🪞 Welcome / Selfie Mirror – ₱2,999</h3>
           <ul>
             <li>Arc mirror w/ LED lights</li>
-            <li>Personalized decal</li>
-            <li>Flower arrangement & signage</li>
+            <li>SIZE: 2X5FT</li>
+            <li>PERSONALIZED DECAL/STATEMENT STICKER</li>
+            <li>SELFIE SHADES/EYEGLASSES</li>
+            <li>PERSONALIZED SIGNAGE BOARD (A2 SIZE)</li>
+            <li>INCLUDES FLOWER ARRANGEMENT W/ BENDABLE LIGHTS</li>
           </ul>
 
           <h3 style={{ marginTop: 40 }}>📸 Polaroid Souvenir Packages</h3>
           <ul>
             <li>Classic – ₱4,499 (40 films)</li>
+            <li>ACRYLIC FRAME W/ 6 FILMS</li>
+            <li>3 HRS UNLIMITED SHOTS (SOFT COPY)</li>
+            <li>3 HRS ROVING PHOTOGRAPHER</li>
+            <li>1-MONTH GOOGLE DRIVE STORAGE (DOWNLOADABLE)</li>
             <li>Eternal – ₱5,999 (60 films)</li>
+            <li>ACRYLIC FRAME W/ 6 FILMS</li>
+            <li>4 HRS UNLIMITED SHOTS (SOFT COPY)</li>
+            <li>4RHS ROVING PHOTOGRAPHER</li>
+            <li>1-MONTH GOOGLE DRIVE STORAGE (DOWNLOADABLE)</li>
             <li>Supreme – ₱7,499 (80 films)</li>
+            <li>ACRYLIC FRAME W/ 6 FILMS</li>
+            <li>4 HRS UNLIMITED SHOTS (SOFT COPY)</li>
+            <li>4RHS ROVING PHOTOGRAPHER</li>
+            <li>1-MONTH GOOGLE DRIVE STORAGE (DOWNLOADABLE)</li>
           </ul>
         </div>
       </section>
