@@ -97,12 +97,12 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
             <li>3 HRS UNLIMITED SHOTS (SOFT COPY)</li>
             <li>3 HRS ROVING PHOTOGRAPHER</li>
             <li>1-MONTH GOOGLE DRIVE STORAGE (DOWNLOADABLE)</li>
-            <li>Eternal – ₱5,999 (60 films)</li>
+            <h3 style={{ marginTop: 40 }}>Eternal – ₱5,999 (60 films)</h3>
             <li>ACRYLIC FRAME W/ 6 FILMS</li>
             <li>4 HRS UNLIMITED SHOTS (SOFT COPY)</li>
             <li>4RHS ROVING PHOTOGRAPHER</li>
             <li>1-MONTH GOOGLE DRIVE STORAGE (DOWNLOADABLE)</li>
-            <li>Supreme – ₱7,499 (80 films)</li>
+            <h3 style={{ marginTop: 40 }}>Supreme – ₱7,499 (80 films)</h3>
             <li>ACRYLIC FRAME W/ 6 FILMS</li>
             <li>4 HRS UNLIMITED SHOTS (SOFT COPY)</li>
             <li>4RHS ROVING PHOTOGRAPHER</li>
