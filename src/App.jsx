@@ -92,7 +92,7 @@ AREAS IN RIZAL (ANTIPOLO, TAYTAY, CAINTA)</li>
 
           <h3 style={{ marginTop: 40 }}>📸 Polaroid Souvenir Packages</h3>
           <ul>
-            <li>Classic – ₱4,499 (40 films)</li>
+            <h3 style={{ marginTop: 40 }}>Classic – ₱4,499 (40 films)</h3>
             <li>ACRYLIC FRAME W/ 6 FILMS</li>
             <li>3 HRS UNLIMITED SHOTS (SOFT COPY)</li>
             <li>3 HRS ROVING PHOTOGRAPHER</li>
